@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "domashka-06"
+version = "0.1.0"
+description = ""
+authors = ["Vesnani <132687769+Vesnani@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "domashka_06"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlite5 = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
